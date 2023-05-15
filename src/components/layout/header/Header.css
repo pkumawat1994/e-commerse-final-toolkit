@@ -1,0 +1,42 @@
+.register-btn {
+  width: 76px;
+  height: 55px;
+  background-color: yellow;
+  border: none;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  transition: transform 2s, background-color 1s;
+}
+.register-btn:hover {
+  background-color: black;
+  color: white;
+
+  transform: rotate(360deg);
+}
+.login-btn {
+  width: 76px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: transform 2s, background-color 1s;
+}
+.login-btn:hover {
+  background-color: yellow;
+  color: black;
+  transform: rotate(360deg);
+}
+.d-lg-block {
+  /* margin-left: 64px; */
+  /* max-width: 108px; */
+}
+#navbarCollapse {
+  height: 65px;
+}

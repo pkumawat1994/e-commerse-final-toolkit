@@ -1,0 +1,95 @@
+.admin_dashboard {
+  display: flex;
+}
+.left_sidebar {
+  flex-basis: 20%;
+  padding: 5px;
+
+  height: auto;
+  background-color: #031737;
+}
+.left_sidebar ul {
+  list-style: none;
+  padding: 2px 24px;
+}
+.left_sidebar ul li {
+  padding: 8px 0px;
+  text-align: center;
+
+  margin-top: 5px;
+}
+.left_sidebar ul li:hover {
+  background-color: #3964ae;
+  text-align: center;
+}
+.left_sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.right_content {
+  flex-basis: 80%;
+  background-color: #eff1f3;
+}
+.dash-header {
+  background-color: #3964ae;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 20px;
+  color: white;
+}
+.admn-card-wrapper {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 23px;
+  height: 204px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 10px;
+  background-color: #dcdfe3;
+}
+.admin-img {
+  border-radius: 50px;
+  align-content: center;
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+}
+.intro {
+  color: #fff;
+}
+.ad_count {
+  font-size: 50px;
+}
+
+.nav-active {
+  color: "red";
+  background-color: red;
+}
+.count {
+  font-size: 79px;
+  margin-top: 26px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+.progress {
+  width: 129px;
+  height: 140px;
+  margin-left: 30px;
+  background-color: #dcdfe3;
+}
+.navlink {
+  background-color: greenyellow;
+  text-align: left;
+}
+.nonact {
+  background-color: red;
+}
+.left_sidebar a.active {
+  color: #fff;
+  font-weight: bold;
+}
+.left_sidebar a.inactive {
+  color: #68d19f;
+  background-color: rgb(47, 113, 255);
+}

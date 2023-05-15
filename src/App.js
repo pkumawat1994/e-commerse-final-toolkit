@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import { ToastContainer } from "react-toastify";
+import "./App.css";
+import InputField from "./components/InputField";
+import Layout from "./components/layout";
+import AllRoutes from "./routes";
+import { useNavigate, useLocation } from "react-router-dom";
 
 function App() {
+  let location = useLocation();
+  console.log(location);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ToastContainer
+        position="top-center"
+        autoClose={1500}
+        limit={2}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
+      <Layout>
+        <AllRoutes />
+      </Layout>
+    </>
   );
 }
 

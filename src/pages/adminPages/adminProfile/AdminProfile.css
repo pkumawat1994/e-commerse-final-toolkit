@@ -1,0 +1,20 @@
+.admin-profile {
+  border-radius: 80px;
+  height: 150px;
+  width: 150px;
+}
+.main-div {
+  background-color: #dcdfe3;
+  box-shadow: 5px 5px 5px 5px 5px solid grey;
+}
+.profile-text {
+  margin: 5px;
+}
+.img-div {
+  border-right: 2px solid rgb(24, 24, 39);
+  margin: 5px;
+}
+.ad {
+  text-align: center;
+  box-shadow: 3px 12px 33px 17px;
+}

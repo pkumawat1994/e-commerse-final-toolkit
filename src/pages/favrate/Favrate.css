@@ -1,0 +1,15 @@
+.product_img {
+  height: 100px;
+  width: 100px;
+  border-radius: 30px;
+}
+.product-name {
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.card-wrapper {
+  padding: 20px;
+  background-color: #e0e0e0;
+  margin-top: 3px;
+}

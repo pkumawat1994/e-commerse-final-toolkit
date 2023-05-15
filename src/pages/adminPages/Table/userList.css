@@ -1,0 +1,58 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px;
+}
+
+td,
+th {
+  border: 1px solid #bab7b7;
+  text-align: center;
+  padding: 8px;
+}
+tr th {
+  background-color: #bab7b7;
+}
+/* PAGINATION CSS */
+
+.pagination__link--active {
+  background-color: rgb(129, 187, 74);
+  color: black;
+  height: 40px;
+  border-radius: 15px;
+  padding-top: 4px;
+  padding-left: 32px;
+  line-height: 31px;
+  width: 69px;
+}
+
+.pagination__link {
+  margin-left: 20px;
+  text-decoration: none;
+}
+.pagination__link {
+  background-color: rgb(255 173 173);
+  color: black;
+  height: 69px;
+  border-radius: 20px;
+  padding: 5px;
+  line-height: 40px;
+}
+li {
+  margin-left: 45px;
+  align-self: center;
+}
+.pagination {
+  padding-left: 133px;
+}
+
+.pagination__link--disabled {
+  color: rgb(247, 242, 242);
+  height: 40px;
+  padding-left: 30px;
+  line-height: 31px;
+}
+a:hover {
+  color: rgb(6, 6, 6);
+}

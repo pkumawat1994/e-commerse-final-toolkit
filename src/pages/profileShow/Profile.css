@@ -1,0 +1,35 @@
+.div-wrapper {
+  background-image: url(/public/assets/img/b.png);
+  height: 400px;
+  color: white;
+  width: 350px;
+  background-color: rgb(206, 206, 206);
+  border: 0px;
+  appearance: none;
+  float: right;
+  border-radius: 20px;
+  margin: 0px;
+}
+.profile-img {
+  border-radius: 40px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+.div-header {
+  padding: 20px;
+  text-align: center;
+}
+.div-body {
+  color: black;
+  height: 100px;
+  padding-top: 10px;
+  background-color: aliceblue;
+  margin: 5px;
+}
+.p-text {
+  font-size: 11px;
+}
+.p-text:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.form-wrapper {
+  width: 500px;
+  margin: 34px auto;
+}
+.er {
+  color: red;
+}
+.form-wrap {
+  background-color: #ffd333;
+  padding: 20px;
+  width: 50%;
+  color: black;
+}
+.para {
+  color: rgb(64, 90, 119);
+}

@@ -1,0 +1,14 @@
+.feature-card {
+  display: flex;
+}
+.cardBody {
+  background-color: rgb(169, 190, 208);
+  height: 200px;
+  width: auto;
+  padding: 50px;
+
+  font-family: "Courier New", Courier, monospace;
+
+  margin: 20px;
+  object-fit: cover;
+}
